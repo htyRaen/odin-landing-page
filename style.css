@@ -1,0 +1,233 @@
+body {
+    font-family: system-ui, -apple-system, Roboto, 'Segoe UI', BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    
+}   
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    height: 40px;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #1F2937;
+    border-left: 208px solid #1F2937;
+    border-right: 208px solid #1F2937;
+}
+
+.links {
+    display: flex;
+    align-items: start;
+    gap: 18px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    border-left: 208px solid #1F2937;
+    border-right: 208px solid #1F2937;
+    height: 495px;
+    gap: 50px;
+}
+
+.banner a img {
+    border: 4px solid white ;
+    border-radius: 16px;
+
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herotext .button { /* Sign up button */
+    display: flex;
+    border-radius: 8px;
+    background-color: #3883f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.maintitle {
+    size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none; /* this removes the line under the links */
+    display: flex;
+    align-content: end;
+    flex-direction: row;
+    font-weight: normal;
+    gap: 18px;
+}
+
+/*Random info section*/
+
+.classinfo { /* Section header*/
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    height: 138px;
+    border-left: 208px solid white;
+    border-right: 208px solid white;
+}
+
+.classes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 48px;
+    height: 360px;
+    border-left: 208px solid white;
+    border-right: 208px solid white;
+}
+
+.class-image {
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+a img {
+    border: 4px #3883f6 solid;
+    border-radius: 16px;
+}
+
+.class-desc {
+    color: #1F2937;
+    width: 160px;
+    text-align: center;
+}
+
+/* Quote */
+
+.premise {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    height: 429px;
+    border-left: 300px solid #E5E7EB;
+    border-right: 300px solid #E5E7EB;
+}
+
+.premise h1 {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    align-content:  center;
+}
+
+.premise h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+/* Call to action*/
+
+.join {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltab {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3883f6;
+    color: #F9FAF8;
+    width: 800px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 24px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.actiontext h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.actiontext h2 {
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+
+.calltab .button {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3883f6;
+    color: #F9FAF8;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
