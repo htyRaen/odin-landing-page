@@ -131,7 +131,7 @@ body {
     border: 6px solid #8b5a2b;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(0, 0, 0);
-    min-height: 405px;
+    height: 405px;
 }
 
 /* Forest Box overflow */
